@@ -100,7 +100,7 @@
         "version": "v4.10.4"
     },
     "php": {
-        "version": "7.2"
+        "version": "7.3"
     },
     "phpdocumentor/reflection-common": {
         "version": "2.2.0"
@@ -110,6 +110,9 @@
     },
     "phpdocumentor/type-resolver": {
         "version": "1.4.0"
+    },
+    "predis/predis": {
+        "version": "v1.1.6"
     },
     "psr/cache": {
         "version": "1.0.1"
