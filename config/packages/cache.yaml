@@ -9,7 +9,7 @@ framework:
 
         # Redis
         app: cache.adapter.redis
-        default_redis_provider: 'redis://foobared@ec2-18-138-248-126.ap-southeast-1.compute.amazonaws.com:6379'
+        default_redis_provider: '%env(resolve:REDIS_URL)%'
 
         # APCu (not recommended with heavy random-write workloads as memory fragmentation can cause perf issues)
         #app: cache.adapter.apcu
