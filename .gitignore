@@ -17,3 +17,4 @@
 .php-version
 
 /.idea/
+.mysql
